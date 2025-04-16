@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance
 const api = axios.create({
-  baseURL: 'https://dashboard-ofrecetutalento.com:3600',
+  baseURL: 'https://dashboard-ofrecetutalento.com:3600/api',
   headers: {
     'Content-Type': 'application/json'
   }
